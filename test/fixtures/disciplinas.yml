@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome_disciplina: MyString
+  turma: MyString
+  dias_aula: MyString
+  hora_aula: MyString
+
+two:
+  nome_disciplina: MyString
+  turma: MyString
+  dias_aula: MyString
+  hora_aula: MyString
