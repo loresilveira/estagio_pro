@@ -1,3 +1,3 @@
 class Professor < ApplicationRecord
-    has_one :disciplina
+    belongs_to :disciplina
 end

@@ -1,5 +1,6 @@
 class Disciplina < ApplicationRecord
     
-    has_one :area
-    has_one :professor
+    belongs_to :area
+    belongs_to :professor
+    
 end

@@ -38,4 +38,15 @@ RailsAdmin.config do |config|
     # history_index
     # history_show
   end
+  
+  config.model 'Disciplina' do
+    list do
+      exclude_fields_if do
+        type == :datetime
+      end
+
+      exclude_fields :area_nome
+    end
+  end
+  
 end
